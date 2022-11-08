@@ -16,6 +16,9 @@ const logReceipt = function(...menuItems){
 logReceipt(
   { descr: 'Burrito', price: 5.99 },
   { descr: 'Chips & Salsa', price: 2.99 },
+  { descr: 'Sprite', price: 1.99 },
+  { descr: 'Burrito', price: 5.99 },
+  { descr: 'Chips & Salsa', price: 2.99 },
   { descr: 'Sprite', price: 1.99 }
 );
 // should log something like:

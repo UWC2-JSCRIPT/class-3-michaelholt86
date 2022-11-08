@@ -20,9 +20,17 @@ const getPointsFromResult = function getPointsFromResult(result) {
 // including wins, draws, and losses i.e. 'wwdlw'
 // Returns total number of points won
 
-const getTotalPoints = function(){
+const getTotalPoints = function(string){
   
+  let totalPoints = string.split('');
+  
+  //let finalScore = totalPoints.forEach(getPointsFromResult());
+
+  return totalPoints;
 }
+
+
+
 
 // Check getTotalPoints
 console.log(getTotalPoints('wwdl')); // should equal 7
@@ -32,13 +40,26 @@ console.log(getTotalPoints('wwdl')); // should equal 7
 // i.e. {name: 'Sounders', results: 'wwlwdd'}
 // Logs each entry to the console as "Team name: points"
 
+/*
+const logReceipt = function(...menuItems){
+  let totalPrice = 0
+  menuItems.forEach((menuItem)=>{
+    console.log(`${menuItem.descr} : ${menuItem.price}`)
+    totalPrice += menuItem.price
+  })
+  console.log(totalPrice)
+} 
 
 
 // Check orderTeams
 orderTeams(
   { name: 'Sounders', results: 'wwdl' },
-  { name: 'Galaxy', results: 'wlld' }
+  { name: 'Galaxy', results: 'wlld' },
+  { name: 'Storm', results: 'wwww' },
+  { name: 'Panthers', results: 'dlww' },
+  { name: 'Rockets', results: 'wwll' }
 );
 // should log the following to the console:
 // Sounders: 7
 // Galaxy: 4
+*/
