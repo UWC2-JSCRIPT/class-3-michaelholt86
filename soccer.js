@@ -21,14 +21,10 @@ const getPointsFromResult = function getPointsFromResult(result) {
 // Returns total number of points won
 
 const getTotalPoints = function(string){
+  let totalScore = 0
+  let results = string.split('')
 
-  let results = string.split(''){
-    array.forEach(string => {
-      
-    });
-  }
-
-
+  
 
   return results;
 }
@@ -48,16 +44,6 @@ console.log(getTotalPoints('wwdl')); // should equal 7
 const orderTeams = function(...teams){
 
 }
-
-const logReceipt = function(...menuItems){
-  let totalPrice = 0
-  menuItems.forEach((menuItem)=>{
-    console.log(`${menuItem.descr} : ${menuItem.price}`)
-    totalPrice += menuItem.price
-  })
-  console.log(totalPrice)
-} 
-
 
 // Check orderTeams
 orderTeams(
