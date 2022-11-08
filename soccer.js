@@ -20,7 +20,9 @@ const getPointsFromResult = function getPointsFromResult(result) {
 // including wins, draws, and losses i.e. 'wwdlw'
 // Returns total number of points won
 
-
+const getTotalPoints = function(){
+  
+}
 
 // Check getTotalPoints
 console.log(getTotalPoints('wwdl')); // should equal 7
