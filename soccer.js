@@ -21,12 +21,16 @@ const getPointsFromResult = function getPointsFromResult(result) {
 // Returns total number of points won
 
 const getTotalPoints = function(string){
-  
-  let totalPoints = string.split('');
-  
-  //let finalScore = totalPoints.forEach(getPointsFromResult());
 
-  return totalPoints;
+  let results = string.split(''){
+    array.forEach(string => {
+      
+    });
+  }
+
+
+
+  return results;
 }
 
 
@@ -40,7 +44,11 @@ console.log(getTotalPoints('wwdl')); // should equal 7
 // i.e. {name: 'Sounders', results: 'wwlwdd'}
 // Logs each entry to the console as "Team name: points"
 
-/*
+
+const orderTeams = function(...teams){
+
+}
+
 const logReceipt = function(...menuItems){
   let totalPrice = 0
   menuItems.forEach((menuItem)=>{
@@ -62,4 +70,3 @@ orderTeams(
 // should log the following to the console:
 // Sounders: 7
 // Galaxy: 4
-*/
