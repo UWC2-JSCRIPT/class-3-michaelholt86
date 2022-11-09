@@ -25,9 +25,11 @@ const getTotalPoints = function(string){
   let results = string.split('')
   let totalScore = 0
 
-  forEach((getPointsFromResult,results)); 
-  console.log(results)
-  //totalScore += results.RESULT_VALUES
+  results.forEach(element => console.log(element));
+  let scores = results.forEach(element => console.log(getPointsFromResult(element)));
+  
+
+  totalScore += scores
 
   return totalScore;
 }
