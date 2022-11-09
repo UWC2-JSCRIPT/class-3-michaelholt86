@@ -12,7 +12,7 @@ const RESULT_VALUES = {
  * @param {string} result 
  * @returns {number} point value
  */
-const getPointsFromResult = function getPointsFromResult(result) {
+const getPointsFromResult = function(result) {
   return RESULT_VALUES[result];
 }
 
@@ -24,10 +24,10 @@ const getTotalPoints = function(string){
 
   let results = string.split('')
   let totalScore = 0
-  
-  results.forEach(getPointsFromResult);
+
+  forEach((getPointsFromResult,results)); 
   console.log(results)
-  totalScore 
+  //totalScore += results.RESULT_VALUES
 
   return totalScore;
 }
