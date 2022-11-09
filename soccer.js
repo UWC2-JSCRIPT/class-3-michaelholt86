@@ -21,12 +21,15 @@ const getPointsFromResult = function getPointsFromResult(result) {
 // Returns total number of points won
 
 const getTotalPoints = function(string){
-  let totalScore = 0
+
   let results = string.split('')
-
+  let totalScore = 0
   
+  results.forEach(getPointsFromResult);
+  console.log(results)
+  totalScore 
 
-  return results;
+  return totalScore;
 }
 
 
